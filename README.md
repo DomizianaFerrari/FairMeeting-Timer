@@ -13,12 +13,12 @@ FairMeeting Timer is a Python-based tool designed to track and visualize speakin
 
 # 🛠️ Tech Stack
 
-Programming Language: Python
-Data Processing: Pandas, NumPy
-Visualization: Matplotlib
-Speech Recognition: SpeechRecognition
+- Programming Language: Python
+- Data Processing: Pandas, NumPy
+- Visualization: Matplotlib
+- Speech Recognition: SpeechRecognition
 
-📂 Project Structure
+# 📂 Project Structure
 
 FairMeeting_Timer/
 │── data/                  # Audio files and processed data
@@ -31,22 +31,19 @@ FairMeeting_Timer/
 │── requirements.txt       # Required dependencies
 │── README.md              # Project documentation
 
-🚀 Installation & Usage
+# 🚀 Installation & Usage
 
-Clone Repository
-
+- Clone Repository
 git clone https://github.com/yourusername/FairMeeting_Timer.git
 cd FairMeeting_Timer
 
-Install Dependencies
-
+- Install Dependencies
 pip install -r requirements.txt
 
-Run the Script
-
+- Run the Script
 python fair_meeting_timer.py
 
-📈 Example Code
+# 📈 Example Code
 
 import speech_recognition as sr
 import numpy as np
@@ -83,11 +80,11 @@ def plot_speaking_times(speaking_times):
 speaking_times = {"Ilaria": 45, "Matteo": 32, "Chiara": 23}
 plot_speaking_times(speaking_times)
 
-📜 License
+# 📜 License
 
 MIT License
 
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
